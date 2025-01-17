@@ -303,8 +303,77 @@ border: none;
 .for-center-g{
     display: flex;
     justify-content: center;
-    background-image:url(.) ;
+    
+    
 }
+
+.footer-section{
+    background-image: url(/images/Rectangle\ 9.png);
+    height: 449px;
+    background-repeat: no-repeat;
+}
+
+/* .subscribe-button{
+    margin-top: 122px;
+} */
+
+.footer-section{
+    padding: 70px 0;
+    
+}
+
+.form-part{
+    margin-top: 28px;
+}
+
+
+
+/* black part */
+
+.colored-tex{
+    font-family: Lato;
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(229, 84, 115);
+}
+
+.colored-tittle{
+    font-family: Lato;
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+
+
+}
+.black-part{
+    background: rgb(17, 16, 16);
+    height: 449px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blk-prt{
+    text-align: center;
+    
+}
+.colore-des{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 625px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.colored-resered{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    }
+
+
 
 
 
