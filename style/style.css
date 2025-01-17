@@ -447,12 +447,8 @@ text-decoration-line: underline;
         /* height: auto; */
     }
 
-    .colore-des , {
+    .colore-des {
         width: 100%;
-    }
-
-   
-
     }
     
 
@@ -469,13 +465,91 @@ text-decoration-line: underline;
         
     }
 
+    .header-tittle , .header-paragraph , .btn-primary{
+        text-align: center;
+        margin: auto;
+    }
+
 
     .flower-container{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
+       
+    }
+
+    .flower-con-three , .flower-con-two , .flower-con-one , .tex-side{
+        /* height: auto; */
+        width: auto;
+       
+
     }
 
 
+    /* medium large screen */
+
+
+
+
+}
+
+
+ /* medium large screen */
+
+@media screen and (min-width:576px) and (max-width:1180px) {
+        
+    .header-container{
+        flex-direction: column;
+        
+    }
+
+    .header-tittle , .header-paragraph , .btn-primary{
+        text-align: center;
+        margin: auto;
+    }
+
+
+    .flower-container{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+       
+    }
+
+    .flower-con-three , .flower-con-two , .flower-con-one , .tex-side{
+        /* height: auto; */
+        width: auto;
+       
+
+    }
+
+}
+
+ /* large screen */
+
+@media screen and (min-width:576px) and (max-width:1366px) {
+        
+    .header-container{
+        flex-direction: column;
+        
+    }
+
+    .header-tittle , .header-paragraph , .btn-primary{
+        text-align: center;
+        margin: auto;
+    }
+
+
+    .flower-container{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+       
+    }
+
+    .flower-con-three , .flower-con-two , .flower-con-one , .tex-side{
+        /* height: auto; */
+        width: auto;
+       
+
+    }
 
 }
 
