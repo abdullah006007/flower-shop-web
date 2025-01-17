@@ -213,15 +213,14 @@ text-decoration-line: underline;
 
 .deal-container{
     display: flex;
- 
     align-items: center;
     border-radius: 8px;
     justify-content: center;
     gap: 120px;
 
-background: rgba(229, 84, 115, 0.05);
-/* padding: 100px 0; */
-height: 620px;
+    background: rgba(229, 84, 115, 0.05);
+    /* padding: 100px 0; */
+    height: 620px;
 }
 
 
@@ -288,12 +287,11 @@ height: 620px;
 
 .eami-gap{
     border-radius: 8px;
-
-background: rgb(255, 255, 255);
-/* width: 700px;
-height: 64px; */
-padding: 18px 513px 18px 18px;
-border: none;
+    background: rgb(255, 255, 255);
+    /* width: 700px;
+    height: 64px; */
+    padding: 18px 513px 18px 18px;
+    border: none;
 
 
 }
@@ -379,22 +377,28 @@ border: none;
 
 
 
+
+
+
+
+
+
 /* responsive part */
 
 @media screen and (max-width:576px) {
-    .header-container{
+    .header-container , .deal-container{
         flex-direction: column;
     }
 
-    .header-tittle , .header-paragraph{
-        /* font-size: 4rem;
-        font-weight: 800; */
+    .header-tittle , .header-paragraph , .btn-primary{
+       text-align: center;
+       margin: auto;
         
 
         
     }
 
-    .delivery-container{
+    .delivery-container , .deal-container{
         height: auto;
     }
 
@@ -410,7 +414,70 @@ border: none;
 
 
     }
+    .image-con{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
 
+    }
+    
+    .flower-con-three , .flower-con-two , .flower-con-one , .tex-side{
+        /* height: auto; */
+        width: auto;
+       
+
+    }
   
+  
+    .for-center-g , .subscribe-button, .eami-gap{
+
+        width: 90%;
+        /* align-items: center; */
+        text-align: center;
+        padding: 18px;
+        
+        
+        
+    }
+    .footer-section {
+        padding: 30px;
+    }
+
+    .black-part{
+        background: rgb(17, 16, 16);
+        /* height: auto; */
+    }
+
+    .colore-des , {
+        width: 100%;
+    }
+
+   
+
+    }
+    
+
+    
+}
+
+
+/* medium screen */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+        
+    .header-container{
+        flex-direction: column;
+        
+    }
+
+
+    .flower-container{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+
 
 }
+
+
+
